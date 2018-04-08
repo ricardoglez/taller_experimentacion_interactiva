@@ -1,5 +1,6 @@
 propuestaArtistica : {
   discurso:{
+    random              : true,
     creaMemoria         : {},
     evidencia           : {},
     expresa             : {},
@@ -21,6 +22,7 @@ propuestaArtistica : {
     }
   },
   interactor_interactividad:{
+    random                : true,
     etapa1                : { tipo: 'selectivo' },
     etapa2                : { tipo: 'selectivo' },
     etapa3                : { tipo: 'transformativo' },
@@ -28,6 +30,7 @@ propuestaArtistica : {
     etapa5                : { tipo: 'constructivo' },
   },
   sensoperceptual:{
+    random                : true,
     auditivo              : {},
     gustativoOlfativo     : {},
     haptico               : {},
@@ -35,6 +38,7 @@ propuestaArtistica : {
     visual                : {},
   },
   inteligenciasMultiples:{
+    random                : true
     linguistica           : {},
     logico_matematica     : {},
     visuo_espacial        : {},
@@ -52,6 +56,7 @@ propuestaArtistica : {
     descripcion_literaria   : {},
   },
   tecnica: {
+    random                  : true,
     graficos_por_ordenado   : {},
     animaciones_3d          : {},
     net_art                 : {},
