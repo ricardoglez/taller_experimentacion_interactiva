@@ -1,5 +1,11 @@
-Repositorio para el taller de experimentacion interactiva :
-Presentado en el centro cultural españa mx
+<h1> Repositorio para el taller de experimentacion interactiva </h1>
+Presentado en el centro cultural españa mx (CCE)
 
 
- 2018
+<ul>
+  <li> Sesión 1: </li>
+</ul>
+
+
+
+2018
