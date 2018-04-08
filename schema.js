@@ -10,9 +10,9 @@ propuestaArtistica : {
   },
   experiencia:{
     concepto:{
-      actitud           : {},
-      conocimiento      : {},
       imaginacion       : {},
+      conocimiento      : {},
+      actitud           : {},
     }
     contexto:{
       politico            : {},
