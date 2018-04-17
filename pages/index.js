@@ -4,44 +4,34 @@ import { ApolloProvider } from "react-apollo";
 import gql from "graphql-tag";
 import fetch from 'node-fetch';
 import { HttpLink } from 'apollo-link-http';
+import Home from '../components/Home';
+//
+// const link = new HttpLink({ uri: 'localhost:4000/graphql' })
+//
+//
+// const client = new ApolloClient({
+//   link,
+// });
+//
+//
+// client
+//   .query({
+//     query: gql`
+//       {
+//         hello
+//       }
+//     `
+//   })
+//   .then(data => console.log({ data }));
+//
 
-const link = new HttpLink({ uri: 'localhost:4000/graphql' })
-
-
-const client = new ApolloClient({
-  link,
-});
-
-
-client
-  .query({
-    query: gql`
-      {
-        hello
-      }
-    `
-  })
-  .then(data => console.log({ data }));
-
-
-class Home extends React.Component{
-  constructor(props){
-    super(props);
-    this.state = {
-      data: null,
-    }
-  }
+class Index extends React.Component{
 
   render(){
-
     return(
-      <ApolloProvider client={client}>
-        <div>
-          Home
-        </div>
-      </ApolloProvider>
+        <Home/>
       )
   }
 }
 
-export default Home;
+export default Index;
